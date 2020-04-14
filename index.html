@@ -11,14 +11,76 @@
 			<div class="menu">
 				<div class="color-choice">
 					<h2>Choose color for player 1</h2>
-					<input id="color1" type="color" />
+					<input
+						id="color1"
+						type="color"
+						onchange="document.querySelector('.player-1').style.background-color = this.value"
+					/>
 				</div>
 				<div class="color-choice">
 					<h2>Choose color for player 2</h2>
-					<input id="color2" type="color" />
+					<input
+						id="color2"
+						type="color"
+						onchange="document.querySelector('.player-2').style.background-color = this.value"
+					/>
 				</div>
 			</div>
-			<div class="grid"></div>
+			<h3>
+				The current Player is: Player <span id="current-player">1</span>
+			</h3>
+			<h3 id="result"></h3>
+			<div class="grid">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+				<div class="taken"></div>
+			</div>
 		</div>
 	</body>
 </html>
