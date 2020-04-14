@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	border: 2px solid;
+	background-color: blue;
+}
+.menu {
+	width: 100%;
+	display: flex;
+	background-color: red;
+	padding: 10px;
+}
+.color-choice {
+	flex: 1;
+}
+.grid {
+	width: 180px; /* 6x7*/
+	height: 210px;
+	border: 2px solid;
+	margin: 5vh auto;
+	background-color: pink;
+}
