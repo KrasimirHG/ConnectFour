@@ -7,16 +7,16 @@ html {
 	box-sizing: inherit;
 }
 .container {
-	width: 80%;
-	margin: auto;
+	margin-top: 5%;
 	border: 2px solid;
 	background-color: #59a4cd;
 }
 .menu {
-	width: 100%;
+	min-width: 100%;
 	display: flex;
 	background-color: #da956a;
 	padding: 10px;
+	justify-content: bottom;
 }
 .color-choice {
 	flex: 1;
@@ -37,7 +37,6 @@ h3 {
 	padding: 10px;
 }
 .grid {
-	
 	border: 2px solid;
 	margin: 5vh auto;
 	background-color: pink;
@@ -67,5 +66,5 @@ h3 {
 	font-size: 2rem;
 }
 .stat {
-	background-color: #b4ac22;
+	background-color: #ffbd00;
 }
