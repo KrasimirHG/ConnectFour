@@ -1,9 +1,7 @@
 window.onload = function() {
 	//simulira istinska igra - pula pada vyzmojno na-dolu
 	const grid = document.querySelector(".grid");
-	//broi redove 4 y=4 - broq redove
-	// const y = 6;
-	// const x = 7; //broi coloni
+	
 
 	var red = 0;
 
