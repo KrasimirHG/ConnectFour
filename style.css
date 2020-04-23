@@ -50,10 +50,12 @@ h3 {
 .player-1 {
 	background-color: red;
 	border: 1px solid;
+	border-radius: 50%;
 }
 .player-2 {
 	background-color: blue;
 	border: 1px solid;
+	border-radius: 50%;
 }
 .start {
 	display: flex;
